@@ -1,0 +1,110 @@
+baseURL = "https://0xirvan.id/"
+languageCode = "en-us"
+title = "Irvan Pramana"
+theme = "hugo-stellar-theme"
+
+
+[params]
+    [params.header]
+        title = "Hello there!"
+        description = "Welcome to my website!"
+
+    [[params.navigation]]
+        name = "Introduction"
+        href = "#intro"
+    
+    [[params.navigation]]
+        name = "Ability"
+        href = "#ability"
+    
+    [[params.navigation]]
+        name = "Blog"
+        href = "#blog"
+    
+    [[params.navigation]]
+        name = "Contact Me"
+        href = "#contact"
+
+    [params.intro]
+        title = "Introduction"
+        description = "My name is Irvan pramana putra. I am 18 years old and live in Bogor. I have an interest in programming and cybersecurity."
+        image = "images/pp.jpg"
+
+    [[params.section]]
+        id = "ability"
+        title = "Ability"
+    
+    [params.section.features]
+      enable = true
+      [[params.section.feature]]
+            title = "Code"
+            description = "Front-end developer, Still in learning stage but i can handle it"
+            icon = "fa-code"
+
+        [[params.section.feature]]
+            title = "Bug hunter"
+            description = "Ethical Hacker with adaptive quirk and experience of penetration testing."
+            icon = "fa-bug"
+
+        [[params.section.feature]]
+            title = "Cloud computing"
+            description = "Familiar with google cloud platform workspace."
+            icon = "fa-cloud"
+
+        [[params.section]]
+            id = "blog"
+            title = "Blog"
+            description = "Sometimes i write something about technology and random things in my blogs. Feel free to commenting!"
+            [params.section.footer]
+             enable = true
+        [[params.section.footer.action]]
+             buttontext = "Read Blog"
+             buttonUrl = "https://blog.0xirvan.id"
+             customClass = "special"
+        
+        [[params.section]]
+            id = "contact"
+            title = "Contact me"
+            description = "Feel free to contacting me, If you have a question please send me a message"
+        [params.section.footer]
+            enable = true
+        [[params.section.footer.action]]
+            buttontext = "Send email"
+            buttonUrl = "mailto:0xirvan@gmail.com"
+            customClass = "special"
+        
+        [params.footer]
+            enable = true
+            title = "About hugo"
+            description = "Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again."
+
+            second_title = "Find me"
+            email = "dev@0xirvan.id"
+
+    [[params.footer.action]]
+      href = "https://gohugo.io/"
+      buttontext = "Learn More"
+
+    # social icons
+    [params.footer.social_list]
+      enable = true
+
+      [[params.footer.social]]
+        title = "Github"
+        icon = "fa-github"
+        link = "https://github.com/0xIrvan"
+
+      [[params.footer.social]]
+        title = "Facebook"
+        icon = "fa-facebook"
+        link = "https://facebook.com/like.a.code"
+
+      [[params.footer.social]]
+        title = "Instagramm"
+        icon = "fa-instagram"
+        link = "https://www.instagram.com/irvan_iot"
+
+    # copyright
+    [params.footer.copyright]
+      enable = true
+      text = "Irvan Pramana Putra 2k21"
